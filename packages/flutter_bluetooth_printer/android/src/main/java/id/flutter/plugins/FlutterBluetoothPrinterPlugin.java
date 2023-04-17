@@ -80,7 +80,7 @@ public class FlutterBluetoothPrinterPlugin implements FlutterPlugin, ActivityAwa
                         sink.success(data);
                     }
                 } else if (value == BluetoothAdapter.STATE_ON){
-                    startDiscovery(false);
+//                    startDiscovery(false);
                 }
             }
         }
