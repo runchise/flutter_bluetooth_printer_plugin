@@ -358,7 +358,7 @@ public class FlutterBluetoothPrinterPlugin implements FlutterPlugin, ActivityAwa
                 return true;
             }
 
-            startDiscovery(false);
+//            startDiscovery(false);
             return true;
         }
 
@@ -370,7 +370,7 @@ public class FlutterBluetoothPrinterPlugin implements FlutterPlugin, ActivityAwa
     @Override
     public void onListen(Object arguments, EventChannel.EventSink events) {
         sinkList.put(arguments, events);
-        startDiscovery(true);
+//        startDiscovery(true);
     }
 
     @Override
