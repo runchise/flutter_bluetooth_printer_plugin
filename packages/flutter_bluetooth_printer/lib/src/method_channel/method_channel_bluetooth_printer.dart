@@ -133,7 +133,7 @@ class _MethodChannelBluetoothPrinter extends FlutterBluetoothPrinterPlatform {
         'address': address,
         'data': data,
         'keep_connected': keepConnected,
-      }).timeout(const Duration(seconds: 10));
+      }).timeout(const Duration(seconds: 20));
 
       _progressCallback = null;
     } finally {
